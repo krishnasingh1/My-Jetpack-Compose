@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackCompose">
         <activity
-            android:name=".MoneyCounterApp.MainActivity"
+            android:name=".lazycolumndog.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lazycolumndog.ActivityDogLazyColumn"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.JetpackCompose">
